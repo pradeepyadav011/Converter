@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Converter</string>
+    <string name="welcome_to_digital_converter">Welcome To Digital Converter</string>
+    <string name="enter_number">ENTER NUMBER</string>
+    <string name="meter">METER</string>
+    <string name="miles">MILES</string>
+    <string name="kilometer">KILOMETER</string>
+    <string name="centimeter">CENTIMETER</string>
+    <string name="textview">TextView</string>
 </resources>
