@@ -7,4 +7,5 @@
     <string name="kilometer">KILOMETER</string>
     <string name="centimeter">CENTIMETER</string>
     <string name="textview">TextView</string>
+    <string name="converter_2023">CONVERTER 2023</string>
 </resources>

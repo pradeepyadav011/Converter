@@ -38,7 +38,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/meter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/meter"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.115" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/miles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="268dp"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/kilometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/kilometer"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.308" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/centimeter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/centimeter"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="0.115" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
@@ -98,12 +98,12 @@
         app:layout_constraintVertical_bias="0.704" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/converter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CONVERTER 2023"
+        android:text="@string/converter_2023"
         android:textAlignment="center"
-        android:textColor="#1936D6"
+        android:textColor="#FFFFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
