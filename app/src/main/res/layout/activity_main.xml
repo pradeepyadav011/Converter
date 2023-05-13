@@ -89,7 +89,7 @@
         android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="92dp"
         android:width="200sp"
         android:hint="output:"
         android:textColor="#E1D3D3"
@@ -97,7 +97,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.704" />
+        app:layout_constraintVertical_bias="0.778" />
 
     <TextView
         android:id="@+id/converter"
