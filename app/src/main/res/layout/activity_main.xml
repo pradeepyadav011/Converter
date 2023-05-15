@@ -27,15 +27,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="436dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_number"
         android:inputType="numberDecimal"
+        android:textColor="@color/white"
         android:textColorHint="#ECCCCC"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/meter"
@@ -90,7 +91,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
         android:width="200sp"
-        android:textColor="#E1D3D3"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="#F4F1F1"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
