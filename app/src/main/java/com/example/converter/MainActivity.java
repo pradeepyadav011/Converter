@@ -1,19 +1,17 @@
 package com.example.converter;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
        TextView output;
        EditText EnterNum;
-       Button miles;
+       Button mile;
        Button meters;
        Button kilometers;
        Button centimeters;
@@ -25,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         output = findViewById(R.id.output);
         EnterNum = findViewById(R.id.editTextNumberDecimal);
-        miles = findViewById(R.id.miles);
+        mile = findViewById(R.id.miles);
         meters = findViewById(R.id.meter);
         kilometers = findViewById(R.id.kilometer);
         centimeters = findViewById(R.id.centimeter);
@@ -57,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 output.setText("value in kilometer : " + kilometer);
             }
         });
-        miles.setOnClickListener(new View.OnClickLis
+
+        mile.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 String num = EnterNum.getText().toString();
