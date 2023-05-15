@@ -31,6 +31,7 @@
         android:ems="10"
         android:hint="@string/enter_number"
         android:inputType="numberDecimal"
+        android:textColor="#F4EDED"
         android:textColorHint="#ECCCCC"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
