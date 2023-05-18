@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 String num = EnterNum.getText().toString();
                 int number = Integer.parseInt(num);
                 float meter = (number * 1000 );
-                output.setText("value in meters : " + meter);
+                output.setText("\n\n\n\nvalue in meters : " + meter);
             }
         });
         centimeters.setOnClickListener(new View.OnClickListener() {
@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String num = EnterNum.getText().toString();
                 int number = Integer.parseInt(num);
-                double centimeter = (number * 100 );
-                output.setText("value in centimeter : " + centimeter);
+                double centimeter = (number * 100000 );
+                output.setText("\n\n\n\nvalue in centimeter : " + centimeter);
             }
         });
         kilometers.setOnClickListener(new View.OnClickListener() {
@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String num = EnterNum.getText().toString();
                 int number = Integer.parseInt(num);
-                double kilometer = (number / 1000 );
-                output.setText("value in kilometer : " + kilometer);
+                double kilometer = (number);
+                output.setText("\n\n\n\n value in kilometer : " + kilometer);
             }
         });
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 String num = EnterNum.getText().toString();
                 int number = Integer.parseInt(num);
                 double miles = (number / 1.609);
-                output.setText("value in miles : " + miles);
+                output.setText("\n\n\n\nvalue in miles : " + miles);
             }
         });
     }
